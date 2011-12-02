@@ -1,4 +1,4 @@
-REF = HEAD
+#REF = HEAD
 VERSION = $(shell git describe --always $(REF))
 
 ARCHIVE = vim-coffee-script-$(VERSION).zip
